@@ -1,4 +1,4 @@
-# zz-gis-leaflet
+# zz-leaflet-resource
 
 > A Vue.js project
 
