@@ -1,0 +1,26 @@
+.zz-leaflet-toolbar {
+  background: #fff;
+  color: #2f77f1;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.zz-leaflet-toolbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+.zz-leaflet-toolbar-item.vertical {
+  flex-direction: column;
+}
+.zz-leaflet-toolbar-item:hover {
+  background: #2f77f1;
+  color: #fff;
+}
+.zz-leaflet-toolbar-item:hover i {
+  color: #fff;
+}
+.zz-leaflet-toolbar-item i,
+.zz-leaflet-toolbar-item span {
+  padding: 2px;
+}
